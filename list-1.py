@@ -34,3 +34,23 @@ olditem = mylist[0]
 del mylist[0]
 print('Я купил', olditem)
 print('Теперь мой список покупок:', mylist)
+
+marks_studet = []
+while True:
+    mark = input("Введите оценку студента:\n")
+    if mark:
+        marks_studet.append(mark)
+    else:
+        break
+
+print("ввод завершен")
+print(marks_studet)
+
+i = 0
+avg_mark = 0
+while i < len(marks_studet):
+    avg_mark += int(marks_studet[i])
+    i += 1
+avg_mark /= int(marks_studet)
+print("Средний бал")
+print(avg_mark)
