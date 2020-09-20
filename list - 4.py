@@ -23,6 +23,6 @@ student_2_marks = [
 
 for lesson_date, mark, mark_2 in zip(lesson_dates, student_marks, student_2_marks):  # ['19.05.15', 5, 4]
     # print(lesson_date, 'оценка', 'студента 1', mark, ', студента 2', mark_2)
-    print(lesson_date)
+    print(lesson_date, mark, mark_2)
 
 curren_date = input('введите дату:\n')
