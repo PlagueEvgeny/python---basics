@@ -17,7 +17,7 @@ with open(src_data_file, 'r', encoding='utf-8') as f:
         parsed_data.append(parsed_row)
         # print(parsed_row)
 
-# print(parsed_data[2])
+print(parsed_data[2])
 # save
 with open(parsed_data_file, 'w', encoding='utf-8') as f:
     for row in parsed_data:
