@@ -10,8 +10,8 @@
 class Student:
     def __init__(self):
         self.id_student = None
-        self.name
-        self.surname
+        self.name = None
+        self.surname = None
         self.home_work = None
         self.teacher = None
         self.number_phone = None
